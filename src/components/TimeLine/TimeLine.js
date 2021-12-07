@@ -45,9 +45,8 @@ const Timeline = () => {
   return (
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
-      <SectionText>
-      The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
-      </SectionText>
+      <SectionText>I am full stack developer with experience of building many websites and web applications. I specialize in NodeJS and vanilla JavaScript. I have professionally worked in MySQL, NodeJS, and JavaScript. I am learning and working on React and MongoDB .
+       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
